@@ -2,7 +2,7 @@ import React from 'react'
 
 function Page1(props) {
     return (
-        <div className="one-page-container" id='HomePage'>
+        <div className="one-page-container" id='CareerPage'>
           <h1>{props.mess}</h1>
           {/* Add your content here */}
         </div>
