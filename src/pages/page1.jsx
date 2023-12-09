@@ -4,7 +4,7 @@ function Page1(props) {
     return (
         <div className="one-page-container" id='HomePage'>
           <h1>{props.mess}</h1>
-          {/* Add your content here */}
+          {"Here we tell about what our website is for."}
         </div>
       );
 }
