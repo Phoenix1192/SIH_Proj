@@ -2,9 +2,9 @@ import React from 'react'
 
 function Page1(props) {
     return (
-        <div className="one-page-container" id='HomePage'>
+        <div className="one-page-container" id="EvaluationPage">
           <h1>{props.mess}</h1>
-          {"Here we tell about what our website is for."}
+          {"Aptitude test and games."}
         </div>
       );
 }

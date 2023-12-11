@@ -1,12 +1,28 @@
-import Page1 from './pages/page1';
-import './App.css';
+import Page1 from "./pages/page1";
+import Page2 from "./pages/page2";
+import Page3 from "./pages/page3";
+import Page4 from "./pages/page4";
+
+import Navbar from "./components/Navbar";
+import { useState } from "react";
+
+import "./App.css";
 
 function App() {
+  const [toggle, setToggle] = useState(false);
+  const changeState = () => {
+    setToggle(!toggle);
+  };
+
   return (
     <div className="App">
-      <Page1 mess={"Landing Page"}/>
-      <Page1 mess = {"Evaluation Page"}></Page1>
-      <Page1 mess = {"Result/Chatbot Page"}></Page1>
+      <Navbar buttonClick={changeState} />
+      <div className="wholebox">
+        <Page1 mess={"Home Page"} />
+        <Page2 mess={"Streams"} />
+        <Page3 mess={"Evaluation Page"}></Page3>
+        <Page4 mess={"Result/Chatbot Page"}></Page4>
+      </div>
     </div>
   );
 }

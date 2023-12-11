@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -24,9 +25,24 @@
   color: white;
 }
 
+.wholebox {
+  &::-webkit-scrollbar{
+    display: none;
+}
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+
+  >* {
+    scroll-snap-align: start;
+    width: 100%;
+  }
+}
+
 .App-link {
   color: #61dafb;
 }
+
 .one-page-container {
   display: flex;
   flex-direction: column;
@@ -41,6 +57,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

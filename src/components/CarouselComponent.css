@@ -1,0 +1,18 @@
+/* .carousel-control-next-icon{
+    background-image: url(../img/imgu.png);
+}
+.carousel-control-prev-icon{
+    background-image: url(../img/imgi.png);
+} */
+.boxu{
+    display: flex;
+    flex-direction: column;
+    background-color: #346d0e;
+    border-radius: 1%;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(0, 0, 0, 0.8); /* Adjust the hover background color if needed */
+}
+
