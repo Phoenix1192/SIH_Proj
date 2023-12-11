@@ -4,7 +4,7 @@
 .carousel-control-prev-icon{
     background-image: url(../img/imgi.png);
 } */
-.boxu{
+.boxu {
     display: flex;
     flex-direction: column;
     background-color: #21598a;
@@ -17,4 +17,26 @@
 .carousel-control-next:hover {
   background-color: rgba(0, 0, 0, 0.8); /* Adjust the hover background color if needed */
 }
+
+.content{
+    padding: 50px 0px;
+}
+
+.sci {
+    background-color: #337a56;
+}
+
+.com {
+    background-color: #21598a;
+}
+
+.art {
+    background-color: #5e2877;
+}
+
+@media screen and (max-width:940px) {
+    .content{
+        padding: 20px 0px;
+    }
+  }
 
