@@ -1,0 +1,47 @@
+.home-container {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+}
+  
+  .description {
+    flex: 1;
+    max-width: 600px;
+    margin-right: 20px; /* Add margin to separate from the image */
+  }
+  
+  .image-container {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .website-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Add some border-radius for rounded corners */
+  }
+
+  h1 {
+    font-size: 3em; /* You can adjust the value based on your preference */
+  }
+  
+  @media screen and (max-width:940px) {
+    h1 {
+        font-size: 2em; /* You can adjust the value based on your preference */
+      }
+    .home-container {
+        grid-template-columns: 1fr;
+    }
+    .image-container {
+        padding-top: 100px;
+    }
+    .description {
+        padding-top: 100px;
+
+        flex: 1;
+        max-width: 70%;
+        margin-right: 20px;
+    }
+  }

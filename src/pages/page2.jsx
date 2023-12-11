@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import CarouselComponent from '../components/Carouselcomponent';
 function Page1(props) {
     return (
