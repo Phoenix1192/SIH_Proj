@@ -15,7 +15,7 @@
 
 .carousel-control-prev:hover,
 .carousel-control-next:hover {
-  background-color: rgba(0, 0, 0, 0.8); /* Adjust the hover background color if needed */
+  background-color: rgba(0, 0, 0, 0.3); /* Adjust the hover background color if needed */
 }
 
 .content{
