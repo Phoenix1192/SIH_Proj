@@ -7,8 +7,10 @@
 .boxu{
     display: flex;
     flex-direction: column;
-    background-color: #346d0e;
-    border-radius: 1%;
+    background-color: #21598a;
+    border-radius: 5%;
+    color: #fff;
+    padding: 5% 15%;
 }
 
 .carousel-control-prev:hover,
