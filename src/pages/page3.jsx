@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Page1(props) {
+function Page3(props) {
     return (
         <div className="one-page-container" id="EvaluationPage">
           <h1>{props.mess}</h1>
@@ -9,4 +9,4 @@ function Page1(props) {
       );
 }
 
-export default Page1
+export default Page3

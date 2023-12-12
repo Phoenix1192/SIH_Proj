@@ -1,12 +1,17 @@
 import React from 'react';
 import CarouselComponent from '../components/Carouselcomponent';
-function Page1(props) {
+import CareerPaths from '../components/careerpath';
+
+function Page2(props) {
     return (
-        <div className="one-page-container" id='CareerPage'>
-          <h1>{props.mess}</h1>
-          <CarouselComponent></CarouselComponent>
+        <div className="one-page-container" id='CareerPage' >
+          <div style={{padding:"100px 0px"}}>
+            <h1>{props.mess}</h1>
+            <CarouselComponent></CarouselComponent>
+          </div>
+          <CareerPaths/>
         </div>
       );
 }
 
-export default Page1
+export default Page2
