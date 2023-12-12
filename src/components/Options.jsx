@@ -4,7 +4,7 @@ function Options({options}) {
     return (
         <ol className="opt" type="a">
           {options.map((option, index) => (
-            <li key={index}>{option}</li>
+            <li key={index}><b>{option}</b></li>
           ))}
         </ol>
       );
