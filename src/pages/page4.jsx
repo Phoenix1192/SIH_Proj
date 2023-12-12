@@ -3,8 +3,14 @@ import React from 'react'
 function Page4(props) {
     return (
         <div className="one-page-container" id="ResultPage">
-          <h1>{props.mess}</h1>
-          {"graphs and metrices for evaluation"}
+          <div className="final">
+            <div className="lefte">
+              <h1>There are your results</h1>
+            </div>
+            <div className="righte">
+              <h2>This is your chatbot</h2>
+            </div>
+          </div>
         </div>
       );
 }

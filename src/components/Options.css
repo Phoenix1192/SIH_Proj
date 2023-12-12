@@ -1,0 +1,6 @@
+.opt{
+    align-self: left;
+}
+.opt > li{
+    text-align: left;
+}

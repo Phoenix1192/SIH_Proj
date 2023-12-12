@@ -9,13 +9,17 @@
     flex-direction: column;
     background-color: #21598a;
     border-radius: 5%;
+    overflow: hidden;
     color: #fff;
     padding: 5% 15%;
 }
 
 .carousel-control-prev:hover,
 .carousel-control-next:hover {
-  background-color: rgba(0, 0, 0, 0.3); /* Adjust the hover background color if needed */
+  background-color: rgba(0, 0, 0, 0.3); /* Adjust the hover background color if 
+  needed */
+  overflow: inherit;
+  /* border-radius: 5%; */
 }
 
 .content{

@@ -1,4 +1,3 @@
-
 .App {
   text-align: center;
 }
@@ -26,9 +25,10 @@
 }
 
 .wholebox {
-  &::-webkit-scrollbar{
+  &::-webkit-scrollbar {
     display: none;
-}
+  }
+
   overflow-y: scroll;
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
@@ -43,6 +43,15 @@
   color: #61dafb;
 }
 
+.dabba {
+  width: 70%;
+  height: 60%;
+  margin: auto;
+  border: 1px solid #000;
+  border-radius: 5%;
+  padding: 10px;
+}
+
 .one-page-container {
   display: flex;
   flex-direction: column;
@@ -52,6 +61,41 @@
   text-align: center;
 }
 
+.question-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navi {
+  display: flex;
+  flex-direction: row;
+}
+
+.rig {
+  margin-left: auto;
+}
+
+.final {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  height: calc(80vh - 70px);
+}
+
+.lefte {
+  border: 1px solid black;
+  display: inline-block;
+  width: 30%;
+  height: 100%;
+}
+
+.righte {
+  display: inline-block;
+  border: 1px solid black;
+  width: 70%;
+  height: 100%;
+}
 
 @keyframes App-logo-spin {
   from {
