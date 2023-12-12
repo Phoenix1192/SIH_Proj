@@ -2,6 +2,7 @@ import Page1 from "./pages/page1";
 import Page2 from "./pages/page2";
 import Page3 from "./pages/page3";
 import Page4 from "./pages/page4";
+import Footer from "./pages/footer";
 
 import Navbar from "./components/Navbar";
 import { useState } from "react";
@@ -22,6 +23,7 @@ function App() {
         <Page2 mess={"Streams"} />
         <Page3 mess={"Evaluation Page"}></Page3>
         <Page4 mess={"Result/Chatbot Page"}></Page4>
+        <Footer/>
       </div>
     </div>
   );
