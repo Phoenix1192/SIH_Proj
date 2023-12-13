@@ -3,7 +3,7 @@ import Page2 from "./pages/page2";
 import Page3 from "./pages/page3";
 import Page4 from "./pages/page4";
 import Footer from "./pages/footer";
-import Chatbot from "./components/chatbbot";
+import Chatbot from "./components/chatbot";
 
 import Navbar from "./components/Navbar";
 import { useState } from "react";
