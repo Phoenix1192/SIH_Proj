@@ -34,9 +34,8 @@ const Login = () => {
         </div>
       ) : (
         <div className='logwin'>
-        <div>
           <label htmlFor="username">Username:</label>
-          <input
+          <input className='cred'
             type="text"
             id="username"
             value={username}
@@ -44,7 +43,7 @@ const Login = () => {
           />
 
           <label htmlFor="password">Password:</label>
-          <input
+          <input className='cred'
             type="password"
             id="password"
             value={password}
@@ -52,7 +51,6 @@ const Login = () => {
           />
 
           <button onClick={handleLogin}>Login</button>
-        </div>
         </div>
       )}
     </div>

@@ -1,8 +1,21 @@
 .logwin {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    place-items: center;
+    height: 100vh;
 }
 
-input {
+.cred {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 10px;
+}
+
+button {
+    border-radius: 20px;
     width: 100px;
+    height: 50px;
 }

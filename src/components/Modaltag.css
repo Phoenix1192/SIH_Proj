@@ -6,8 +6,7 @@
     background-color: #3B3B3B;
     color: white;
     border-radius: 20px;
-    max-height: 80%;
-    overflow-y: auto;
+    max-height: 50%;
 }
 
 @media screen and (max-width:940px) {
