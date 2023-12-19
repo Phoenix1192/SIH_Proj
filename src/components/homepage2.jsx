@@ -26,7 +26,7 @@ const HomePage2 = () => {
           <h5>So you accept the default and do nothing. </h5>
         </div>
         <div className="description aleft">
-            <button className='Getco'>Get Counseling</button>
+            <button className='Getco TakeTest'>Get Counseling</button>
         </div>
       </div>
     </div>

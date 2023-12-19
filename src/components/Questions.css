@@ -1,0 +1,48 @@
+.q-type-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .q-type-block {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 300px;
+    background-color: white;
+  }
+
+  .q-type-block:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .q-image {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    margin-bottom: 10px;
+  }
+
+  .cover_box {
+    background-color: #6C6EC6;
+  }
+
+  .eval {
+    background-color: #0E1093;
+    width: 250px;
+    height: 60px;
+    border:0px;
+    margin: 10px;
+  }
+
+  @media screen and (max-width:940px) {
+    .q-type-block {
+        max-width: 400px;
+      }
+  }

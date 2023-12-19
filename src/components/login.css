@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     place-items: center;
-    height: 100vh;
 }
 
 .cred {
@@ -20,6 +19,10 @@ button {
     width: 100px;
     height: 50px;
     margin: 0px 10px;
-    background-color: rgb(82, 106, 126);
+    background-color: #0E1093;
+    color: white;
+}
+
+label {
     color: white;
 }

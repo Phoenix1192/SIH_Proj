@@ -36,13 +36,13 @@
     width: 100%;
     margin-top: -200px;
     position: relative;
+    z-index: -5;
   }
 
   .man {
     width: 100%;
     height: auto;
     border-radius: 8px; /* Add some border-radius for rounded corners */
-    z-index: 3;
   }
 
   .homepp {
@@ -50,7 +50,6 @@
     position: relative;
     color: white;
     padding: 100px 0 0 0;
-    z-index: 2;
   }
   
   @media screen and (max-width:940px) {

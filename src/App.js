@@ -23,8 +23,8 @@ function App() {
       <div className="wholebox">
         <Page1 mess={"Home Page"} />
         <Page2 mess={"Streams"} />
-        <Page3 mess={"Evaluation Page"}></Page3>
-        <Page4 mess={"Result/Chatbot Page"}></Page4>
+        <button className="lastbut TakeTest" id="lastbut">Get Counselling</button>
+        
         <Footer/>
       </div>
     </div>

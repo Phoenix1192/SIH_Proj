@@ -8,6 +8,12 @@
   pointer-events: none;
 }
 
+.lastbut {
+  width: 250px;
+  height: 60px;
+  border-radius: 0;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
