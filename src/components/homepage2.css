@@ -24,12 +24,18 @@
     border-radius: 8px; /* Add some border-radius for rounded corners */
   }
 
-  .increase {
-    font-size: 4em;
+  h1 {
+    font-size: 5em; /* You can adjust the value based on your preference */
   }
 
-  .TakeTest {
+  .inc {
+    font-size: 5em;
+  }
+
+  .Getco {
     background-color: #0E1093;
+    width: 250px;
+    height: 60px;
     border:0px;
     margin: 0;
   }
@@ -48,12 +54,21 @@
   .aleft {
     text-align: left;
   }
+
+  .aright {
+    text-align: right;
+  }
+
   .homep {
     width: 400px;
   }
 
   .fbg-image {
     width: 100%;
+  }
+
+  .lower {
+    padding: 100px 0 0 0;
   }
   
   @media screen and (max-width:940px) {

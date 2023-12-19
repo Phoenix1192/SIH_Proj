@@ -14,12 +14,14 @@ function Navbar({buttonClick}) {
 
 	return (
 		<header>
-			<ToggleButon buttonClick={buttonClick}/>
-			<h3>NicheNavigator</h3>
+			<div>
+				<ToggleButon buttonClick={buttonClick}/>
+				<h4 className="logo">Career Buddy</h4>
+			</div>
 			<div>
 			<nav ref={navRef}>
 				<a href="#" onClick={showNavbar}>Home</a>
-				<a href='#CareerPage' onClick={showNavbar}>Careers</a>
+				<a href='#CareerPage' onClick={showNavbar}>Explore</a>
                 <a href="#EvaluationPage" onClick={showNavbar}>Test</a>
 				<a href="#ResultPage" onClick={showNavbar}>Results</a>
 				<Modaltag func={showNavbar} />

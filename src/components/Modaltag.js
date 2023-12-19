@@ -17,7 +17,7 @@ const Modaltag = ({func}) => {
   
     return (
       <>
-        <a onClick={openModal}>LogIn</a>
+        <button className='login' onClick={openModal}>LogIn</button>
         <ReactModal
           isOpen={modalIsOpen}
           onRequestClose={closeModal}

@@ -3,7 +3,7 @@ import React from 'react'
 function Footer(props) {
     const fstyle={
         height:"150px", 
-        backgroundColor:"#f17916",
+        backgroundColor:"#3F42A1",
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
@@ -12,7 +12,7 @@ function Footer(props) {
 
     return (
         <div style={fstyle}>
-          <b>NicheNavigator.com</b>
+          <b style={{color:"white"}}>CareerBuddy.com</b>
         </div>
       );
 }

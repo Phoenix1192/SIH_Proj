@@ -15,7 +15,7 @@ const ProMod = ({desc}) => {
   
     return (
       <>
-        <p onClick={openModal}>more</p>
+        <button className='more' onClick={openModal}>more</button>
         <ReactModal
           isOpen={modalIsOpen}
           onRequestClose={closeModal}

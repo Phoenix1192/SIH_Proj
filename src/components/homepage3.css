@@ -17,43 +17,40 @@
     flex: 1;
     max-width: 600px;
   }
-  
-  .website-image {
-    width: 100%;
-    height: auto;
-    border-radius: 8px; /* Add some border-radius for rounded corners */
-  }
 
-  .increase {
-    font-size: 4em;
-  }
-
-  .TakeTest {
-    background-color: #0E1093;
-    border:0px;
-    margin: 0;
-  }
-
-  .TakeTest:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  h1 {
+    font-size: 5em; /* You can adjust the value based on your preference */
   }
 
   .description a {
     color: white;
-	  text-decoration: none;
+	text-decoration: none;
     text-align: left;
   }
 
   .aleft {
     text-align: left;
   }
-  .homep {
-    width: 400px;
+  
+  .sbg {
+    width: 100%;
+    margin-top: -200px;
+    position: relative;
   }
 
-  .fbg-image {
+  .man {
     width: 100%;
+    height: auto;
+    border-radius: 8px; /* Add some border-radius for rounded corners */
+    z-index: 3;
+  }
+
+  .homepp {
+    width: 400px;
+    position: relative;
+    color: white;
+    padding: 100px 0 0 0;
+    z-index: 2;
   }
   
   @media screen and (max-width:940px) {
@@ -76,7 +73,7 @@
     .inc {
       font-size: 3em;
     }
-    .fbg-image {
+    .sbg {
       object-fit: cover;
       height: 200px;
     }

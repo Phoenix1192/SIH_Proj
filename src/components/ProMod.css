@@ -8,3 +8,10 @@
     max-height: 80%;
     overflow-y: auto;
 }
+
+.more {
+    font-size: 17px;
+    width: 50px;
+    height: 30px;
+    background-color: #6C6EC6;
+}

@@ -1,13 +1,13 @@
 .space {
     width: 60px;
     height: 30px;
-    background-color: white;
+    background-color: #0E1093;
     border-radius: 15px;
 }
 .button {
     width: 20px;
     height: 20px;
-    background-color: black;
+    background-color: white;
     margin:5px;
     transition: 0.5s;
     border-radius: 15px;
@@ -15,5 +15,5 @@
 
 .movebutton {
     transform: translateX(30px);
-    background-color: #000;
+    background-color: white;
 }

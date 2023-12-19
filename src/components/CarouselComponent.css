@@ -23,19 +23,28 @@
 }
 
 .content{
+    color: white;
     padding: 50px 0px;
 }
 
 .sci {
-    background-color: #337a56;
+    background-color: #6C6EC6;
 }
 
 .com {
-    background-color: #21598a;
+    background-color: #3E4095;
 }
 
 .art {
-    background-color: #5e2877;
+    background-color: #3335ac;
+}
+
+h3 {
+    color: white;
+}
+
+.stream {
+    color: white;
 }
 
 @media screen and (max-width:940px) {
