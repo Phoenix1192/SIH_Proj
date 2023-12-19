@@ -15,6 +15,11 @@
     border-radius: 8px;
     max-width: 300px;
   }
+
+  .career-path-block:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
   
   .profile-image {
     width: 100%;

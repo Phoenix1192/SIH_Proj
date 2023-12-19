@@ -1,5 +1,6 @@
 import React from 'react';
 import './careerpath.css';
+import ProMod from './ProMod';
 
 const CareerPathBlock = ({ imagePath, title, description }) => {
   return (
@@ -7,6 +8,7 @@ const CareerPathBlock = ({ imagePath, title, description }) => {
       <img src={imagePath} alt={`${title} Profile`} className="profile-image" />
       <h2>{title}</h2>
       <p>{description}</p>
+      <ProMod desc={description} />
     </div>
   );
 };
@@ -42,6 +44,21 @@ const CareerPaths = () => {
       title: 'Environmental Scientist',
       imagePath: 'https://media.istockphoto.com/id/1165379982/vector/environment-ecology-nature-protection-concept-people-take-care-of-earth-planet-vector-flat.jpg?s=612x612&w=0&k=20&c=A65i82Mtyf1-b0D7KJUOFVsXbRWD1qlegZdeMwwQSRY=',
       description: 'Contribute to a sustainable future by studying and preserving the environment.',
+    },
+    {
+      title: 'Product Analyst',
+      imagePath: 'https://cdni.iconscout.com/illustration/premium/thumb/e-commerce-delivery-management-5691596-4772698.png',
+      description: 'Analyze market trends, customer needs, and product performance to provide insights that drive product development and strategy.',
+    },
+    {
+      title: 'Consultant',
+      imagePath: 'https://img.freepik.com/free-vector/strategic-consulting-concept-illustration_114360-8994.jpg',
+      description: 'Offer expert advice to businesses in areas such as management, strategy, and operations, helping them improve efficiency and achieve their goals.',
+    },
+    {
+      title: 'DevOps Engineer',
+      imagePath: 'https://img.freepik.com/premium-vector/devops-engineer-flat-illustration_203633-2089.jpg',
+      description: 'Bridge the gap between development and operations by automating processes, managing infrastructure, and ensuring seamless software delivery.',
     },
   ];
 

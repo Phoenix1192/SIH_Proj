@@ -26,6 +26,21 @@
   h1 {
     font-size: 3em; /* You can adjust the value based on your preference */
   }
+
+  .TakeTest {
+    background-color: #f17916;
+    border:0px;
+  }
+
+  .TakeTest:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+
+  .description a {
+    color: white;
+	  text-decoration: none;
+  }
   
   @media screen and (max-width:940px) {
     h1 {

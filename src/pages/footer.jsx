@@ -12,7 +12,7 @@ function Footer(props) {
 
     return (
         <div style={fstyle}>
-          <b>pathfinder.com</b>
+          <b>NicheNavigator.com</b>
         </div>
       );
 }

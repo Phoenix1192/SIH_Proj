@@ -15,7 +15,7 @@ function Navbar({buttonClick}) {
 	return (
 		<header>
 			<ToggleButon buttonClick={buttonClick}/>
-			<h3>PATHfinder</h3>
+			<h3>NicheNavigator</h3>
 			<div>
 			<nav ref={navRef}>
 				<a href="#" onClick={showNavbar}>Home</a>
