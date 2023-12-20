@@ -11,6 +11,7 @@
     flex: 1;
     max-width: 600px;
     margin-right: 20px; /* Add margin to separate from the image */
+    padding: 0 0 0 100px;
   }
   
   .image-container {
@@ -67,7 +68,7 @@
         padding-top: 100px;
     }
     .description {
-        padding-top: 100px;
+        padding: 100px 0 0 0;
 
         flex: 1;
         max-width: 70%;
