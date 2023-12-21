@@ -2,10 +2,9 @@ import { useRef, useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
 import ToggleButon from "./ToggleButton";
-import Login from "./login";
 import Modaltag from "./Modaltag";
 
-function Navbar({buttonClick}) {
+function Navbar({buttonClick,changeLog,user}) {
 	const navRef = useRef();
 
 	const showNavbar = () => {
@@ -24,7 +23,7 @@ function Navbar({buttonClick}) {
 				<a href='#CareerPage' onClick={showNavbar}>Explore</a>
                 <a href="#EvaluationPage" onClick={showNavbar}>Test</a>
 				<a href="#ResultPage" onClick={showNavbar}>Results</a>
-				<Modaltag func={showNavbar} />
+				<Modaltag func={showNavbar} changeLog={changeLog} user={user} />
 				
 				<button
 					className="nav-btn nav-close-btn"

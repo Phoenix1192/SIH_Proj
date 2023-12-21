@@ -11,7 +11,7 @@ const HomePage = () => {
         <div className="description aleft">
           <h1 className='increase'>Being stuck in a career sucks!</h1>
           <h4>We get it</h4>
-          <p className='aleft homep'>If you are in an okey-job struggling to fit into a crowd, you know what we mean. If you are a recent graduate the struggle is even bigger for you. </p>
+          <p className='aleft homep'>Unsure if computer science or creative writing is your calling? Don't worry, you're not alone! Career counseling helps uncover your unique strengths and skills, opening doors to diverse possibilities and equipping you for a confident future. </p>
           <button className='TakeTest'><a href="#lastbut">Take Test</a></button>
         </div>
         <div className="image-container">

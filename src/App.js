@@ -4,6 +4,7 @@ import Page3 from "./pages/page3";
 import Page4 from "./pages/page4";
 import Footer from "./pages/footer";
 import Chatbot from "./components/chatbot";
+import FinalPage from "./components/FinalPage";
 
 import Navbar from "./components/Navbar";
 import { useState } from "react";
@@ -16,15 +17,19 @@ function App() {
     setToggle(!toggle);
   };
 
+  const [user,setUser]=useState(false);
+  const changeLog = () => {
+    setUser(!user);
+  }
+
   return (
     <div className="App">
-      <Navbar buttonClick={changeState} />
-      <Chatbot/>
+      <Navbar buttonClick={changeState} changeLog={changeLog} user={user} />
       <div className="wholebox">
         <Page1 mess={"Home Page"} />
         <Page2 mess={"Streams"} />
         <button className="lastbut TakeTest" id="lastbut">Get Counselling</button>
-        
+        <FinalPage/>
         <Footer/>
       </div>
     </div>

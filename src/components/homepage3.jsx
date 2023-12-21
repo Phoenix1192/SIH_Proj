@@ -16,9 +16,7 @@ const HomePage3 = () => {
           />
         </div>
         <div className="description aleft">
-          <p className='aleft homepp'>K2N is led by the wisdom of senior practising faculties,
-            And run by an enthusiast team of informed career counsellors 
-            Committed to GET YOU UNSTUCK in your career. </p>
+          <p className='aleft homepp'>Navigating the world of careers can feel overwhelming, especially for young minds. Career counseling provides the tools and guidance to explore your interests, discover hidden talents, and match them with fulfilling career paths. </p>
         </div>
       </div>
       <img

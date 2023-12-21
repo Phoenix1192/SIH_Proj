@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import './login.css'
 
-const Login = () => {
+const Login = ({changeLog,user}) => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(user);
 
   const handleLogin = () => {
     // In a real application, you would typically make an API call to authenticate the user
@@ -14,6 +14,7 @@ const Login = () => {
 
     if (username === validUsername && password === validPassword) {
       setIsLoggedIn(true);
+      changeLog();
     } else {
       alert('Invalid credentials. Please try again.');
     }
@@ -21,6 +22,7 @@ const Login = () => {
 
   const handleLogout = () => {
     setIsLoggedIn(false);
+    changeLog();
     setPassword('');
     setUsername('');
     // Additional logout logic can be added here, such as clearing session storage or making an API call
